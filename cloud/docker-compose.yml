@@ -22,7 +22,7 @@
       POSTGRES_PASSWORD: root
       POSTGRES_DB: cloudv1
     volumes:
-      - postgres_data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data:rw
       - ./dockerUtilities/import.sql:/docker-entrypoint-initdb.d/import.sql
   
 volumes:
