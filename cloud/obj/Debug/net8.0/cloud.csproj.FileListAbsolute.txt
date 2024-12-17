@@ -32,3 +32,8 @@
 /home/fitia/itu/S5/INF308/cloud_v1/cloud/obj/Debug/net8.0/cloud.pdb
 /home/fitia/itu/S5/INF308/cloud_v1/cloud/obj/Debug/net8.0/cloud.genruntimeconfig.cache
 /home/fitia/itu/S5/INF308/cloud_v1/cloud/obj/Debug/net8.0/ref/cloud.dll
+/home/fitia/itu/S5/INF308/cloud_v1/cloud/bin/Debug/net8.0/BouncyCastle.Cryptography.dll
+/home/fitia/itu/S5/INF308/cloud_v1/cloud/bin/Debug/net8.0/MailKit.dll
+/home/fitia/itu/S5/INF308/cloud_v1/cloud/bin/Debug/net8.0/MimeKit.dll
+/home/fitia/itu/S5/INF308/cloud_v1/cloud/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
+/home/fitia/itu/S5/INF308/cloud_v1/cloud/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
