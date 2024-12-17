@@ -1,0 +1,9 @@
+﻿// build image
+docker build -t cloud_v1 .
+
+// lance le conteneur:
+docker run -p 8080:8080 cloud_v1
+
+// acceder à la base postgres docker depuis windows
+docker exec -it postgres_db psql -U postgres -d cloudv1
+\l: database ; \dt: tables
