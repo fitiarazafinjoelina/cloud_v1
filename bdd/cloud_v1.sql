@@ -5,6 +5,8 @@ CREATE TABLE "user"(
     "password" VARCHAR(255) NOT NULL,
     "id_role" INTEGER NOT NULL
 );
+
+
 ALTER TABLE
     "user" ADD PRIMARY KEY("id_user");
 CREATE TABLE "role"(
