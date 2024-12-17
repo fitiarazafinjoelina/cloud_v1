@@ -2,7 +2,7 @@
 docker build -t cloud_v1 .
 
 docker compose up --build
-docker compose down
+docker compose down -v
 
 // lance le conteneur:
 docker run -p 8080:8080 cloud_v1
