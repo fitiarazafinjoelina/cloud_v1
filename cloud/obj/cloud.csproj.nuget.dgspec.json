@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/fitia/itu/S5/INF308/cloud_v1/cloud/cloud.csproj": {}
+    "D:\\ITU\\S5\\ConcRel\\cloud_v1\\cloud\\cloud.csproj": {}
   },
   "projects": {
-    "/home/fitia/itu/S5/INF308/cloud_v1/cloud/cloud.csproj": {
+    "D:\\ITU\\S5\\ConcRel\\cloud_v1\\cloud\\cloud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fitia/itu/S5/INF308/cloud_v1/cloud/cloud.csproj",
+        "projectUniqueName": "D:\\ITU\\S5\\ConcRel\\cloud_v1\\cloud\\cloud.csproj",
         "projectName": "cloud",
-        "projectPath": "/home/fitia/itu/S5/INF308/cloud_v1/cloud/cloud.csproj",
-        "packagesPath": "/home/fitia/.nuget/packages/",
-        "outputPath": "/home/fitia/itu/S5/INF308/cloud_v1/cloud/obj/",
+        "projectPath": "D:\\ITU\\S5\\ConcRel\\cloud_v1\\cloud\\cloud.csproj",
+        "packagesPath": "C:\\Users\\NY AVO\\.nuget\\packages\\",
+        "outputPath": "D:\\ITU\\S5\\ConcRel\\cloud_v1\\cloud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fitia/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\NY AVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,13 +45,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[8.0.8, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -63,15 +61,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/home/fitia/.dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\6.0.423\\RuntimeIdentifierGraph.json"
         }
       }
     }
