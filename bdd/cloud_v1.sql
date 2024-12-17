@@ -26,3 +26,6 @@ ALTER TABLE
     "user_cloud" ADD CONSTRAINT "user_id_role_foreign" FOREIGN KEY("id_role") REFERENCES "role"("id_role");
 ALTER TABLE
     "token" ADD CONSTRAINT "token_id_user_foreign" FOREIGN KEY("id_user") REFERENCES "user_cloud"("id_user");
+    
+ALTER TABLE "user_cloud" 
+ALTER COLUMN "password" TYPE VARCHAR(300);
