@@ -23,6 +23,7 @@
       POSTGRES_DB: cloudv1
     volumes:
       - postgres_data:/var/lib/postgresql/data
+      - ./dockerUtilities/import.sql:/docker-entrypoint-initdb.d/import.sql
   
 volumes:
   postgres_data:
