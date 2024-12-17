@@ -7,6 +7,18 @@
 *.userosscache
 *.sln.docstates
 
+# Build directories
+**/bin/
+**/obj/
+
+# .NET Core package cache
+.nuget/
+
+# Visual Studio for Mac and Windows files
+.vscode/
+.idea/
+
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
