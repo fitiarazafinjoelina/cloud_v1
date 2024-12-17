@@ -29,4 +29,3 @@ ALTER TABLE
     
 ALTER TABLE "user_cloud" 
 ALTER COLUMN "password" TYPE VARCHAR(300);
-
